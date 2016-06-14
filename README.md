@@ -1,8 +1,6 @@
-# hangman
-
 namespace Wisielec
 {
-    partial class Wisielec
+    partial class Wisielecc
     {
         /// <summary>
         /// Required designer variable.
@@ -32,30 +30,30 @@ namespace Wisielec
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmdA = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
+            this.cmdg = new System.Windows.Forms.Button();
+            this.cmdf = new System.Windows.Forms.Button();
+            this.cmde = new System.Windows.Forms.Button();
+            this.cmdd = new System.Windows.Forms.Button();
+            this.cmdc = new System.Windows.Forms.Button();
+            this.cmdb = new System.Windows.Forms.Button();
+            this.cmdi = new System.Windows.Forms.Button();
+            this.cmdj = new System.Windows.Forms.Button();
+            this.cmdk = new System.Windows.Forms.Button();
+            this.cmdl = new System.Windows.Forms.Button();
+            this.cmdm = new System.Windows.Forms.Button();
+            this.cmdn = new System.Windows.Forms.Button();
+            this.cmdh = new System.Windows.Forms.Button();
+            this.cmdp = new System.Windows.Forms.Button();
+            this.cmdr = new System.Windows.Forms.Button();
+            this.cmds = new System.Windows.Forms.Button();
+            this.cmdt = new System.Windows.Forms.Button();
+            this.cmdu = new System.Windows.Forms.Button();
+            this.cmdw = new System.Windows.Forms.Button();
+            this.cmdo = new System.Windows.Forms.Button();
+            this.cmdy = new System.Windows.Forms.Button();
+            this.cmdz = new System.Windows.Forms.Button();
+            this.cmdx = new System.Windows.Forms.Button();
+            this.cmdq = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,304 +77,305 @@ namespace Wisielec
             this.cmdA.TabIndex = 1;
             this.cmdA.Text = "A";
             this.cmdA.UseVisualStyleBackColor = true;
-            this.cmdA.Click += new System.EventHandler(this.cmdA_Click);
+            this.cmdA.Click += new System.EventHandler(this.quessClick);
             // 
-            // button1
+            // cmdg
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(410, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(42, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "G";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cmdg.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdg.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdg.Location = new System.Drawing.Point(410, 290);
+            this.cmdg.Name = "cmdg";
+            this.cmdg.Size = new System.Drawing.Size(42, 35);
+            this.cmdg.TabIndex = 2;
+            this.cmdg.Text = "G";
+            this.cmdg.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // cmdf
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(362, 290);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(42, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "F";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cmdf.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdf.Location = new System.Drawing.Point(362, 290);
+            this.cmdf.Name = "cmdf";
+            this.cmdf.Size = new System.Drawing.Size(42, 35);
+            this.cmdf.TabIndex = 3;
+            this.cmdf.Text = "F";
+            this.cmdf.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // cmde
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(314, 290);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(42, 35);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "E";
-            this.button3.UseVisualStyleBackColor = true;
+            this.cmde.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmde.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmde.Location = new System.Drawing.Point(314, 290);
+            this.cmde.Name = "cmde";
+            this.cmde.Size = new System.Drawing.Size(42, 35);
+            this.cmde.TabIndex = 4;
+            this.cmde.Text = "E";
+            this.cmde.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // cmdd
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.Location = new System.Drawing.Point(266, 290);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(42, 35);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "D";
-            this.button4.UseVisualStyleBackColor = true;
+            this.cmdd.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdd.Location = new System.Drawing.Point(266, 290);
+            this.cmdd.Name = "cmdd";
+            this.cmdd.Size = new System.Drawing.Size(42, 35);
+            this.cmdd.TabIndex = 5;
+            this.cmdd.Text = "D";
+            this.cmdd.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // cmdc
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button5.Location = new System.Drawing.Point(218, 290);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(42, 35);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "C";
-            this.button5.UseVisualStyleBackColor = true;
+            this.cmdc.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdc.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdc.Location = new System.Drawing.Point(218, 290);
+            this.cmdc.Name = "cmdc";
+            this.cmdc.Size = new System.Drawing.Size(42, 35);
+            this.cmdc.TabIndex = 6;
+            this.cmdc.Text = "C";
+            this.cmdc.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // cmdb
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button6.Location = new System.Drawing.Point(170, 290);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(42, 35);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "B";
-            this.button6.UseVisualStyleBackColor = true;
+            this.cmdb.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdb.Location = new System.Drawing.Point(170, 290);
+            this.cmdb.Name = "cmdb";
+            this.cmdb.Size = new System.Drawing.Size(42, 35);
+            this.cmdb.TabIndex = 7;
+            this.cmdb.Text = "B";
+            this.cmdb.UseVisualStyleBackColor = true;
+            this.cmdb.Click += new System.EventHandler(this.quessClick);
             // 
-            // button7
+            // cmdi
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button7.Location = new System.Drawing.Point(170, 331);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(42, 35);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "I";
-            this.button7.UseVisualStyleBackColor = true;
+            this.cmdi.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdi.Location = new System.Drawing.Point(170, 331);
+            this.cmdi.Name = "cmdi";
+            this.cmdi.Size = new System.Drawing.Size(42, 35);
+            this.cmdi.TabIndex = 14;
+            this.cmdi.Text = "I";
+            this.cmdi.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // cmdj
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button8.Location = new System.Drawing.Point(218, 331);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(42, 35);
-            this.button8.TabIndex = 13;
-            this.button8.Text = "J";
-            this.button8.UseVisualStyleBackColor = true;
+            this.cmdj.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdj.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdj.Location = new System.Drawing.Point(218, 331);
+            this.cmdj.Name = "cmdj";
+            this.cmdj.Size = new System.Drawing.Size(42, 35);
+            this.cmdj.TabIndex = 13;
+            this.cmdj.Text = "J";
+            this.cmdj.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // cmdk
             // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button9.Location = new System.Drawing.Point(266, 331);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(42, 35);
-            this.button9.TabIndex = 12;
-            this.button9.Text = "K";
-            this.button9.UseVisualStyleBackColor = true;
+            this.cmdk.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdk.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdk.Location = new System.Drawing.Point(266, 331);
+            this.cmdk.Name = "cmdk";
+            this.cmdk.Size = new System.Drawing.Size(42, 35);
+            this.cmdk.TabIndex = 12;
+            this.cmdk.Text = "K";
+            this.cmdk.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // cmdl
             // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button10.Location = new System.Drawing.Point(314, 331);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(42, 35);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "L";
-            this.button10.UseVisualStyleBackColor = true;
+            this.cmdl.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdl.Location = new System.Drawing.Point(314, 331);
+            this.cmdl.Name = "cmdl";
+            this.cmdl.Size = new System.Drawing.Size(42, 35);
+            this.cmdl.TabIndex = 11;
+            this.cmdl.Text = "L";
+            this.cmdl.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // cmdm
             // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button11.Location = new System.Drawing.Point(362, 331);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(42, 35);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "M";
-            this.button11.UseVisualStyleBackColor = true;
+            this.cmdm.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdm.Location = new System.Drawing.Point(362, 331);
+            this.cmdm.Name = "cmdm";
+            this.cmdm.Size = new System.Drawing.Size(42, 35);
+            this.cmdm.TabIndex = 10;
+            this.cmdm.Text = "M";
+            this.cmdm.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // cmdn
             // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button12.Location = new System.Drawing.Point(410, 331);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(42, 35);
-            this.button12.TabIndex = 9;
-            this.button12.Text = "N";
-            this.button12.UseVisualStyleBackColor = true;
+            this.cmdn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdn.Location = new System.Drawing.Point(410, 331);
+            this.cmdn.Name = "cmdn";
+            this.cmdn.Size = new System.Drawing.Size(42, 35);
+            this.cmdn.TabIndex = 9;
+            this.cmdn.Text = "N";
+            this.cmdn.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // cmdh
             // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button13.Location = new System.Drawing.Point(122, 331);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(42, 35);
-            this.button13.TabIndex = 8;
-            this.button13.Text = "H";
-            this.button13.UseVisualStyleBackColor = true;
+            this.cmdh.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdh.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdh.Location = new System.Drawing.Point(122, 331);
+            this.cmdh.Name = "cmdh";
+            this.cmdh.Size = new System.Drawing.Size(42, 35);
+            this.cmdh.TabIndex = 8;
+            this.cmdh.Text = "H";
+            this.cmdh.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // cmdp
             // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button14.Location = new System.Drawing.Point(170, 372);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(42, 35);
-            this.button14.TabIndex = 21;
-            this.button14.Text = "P";
-            this.button14.UseVisualStyleBackColor = true;
+            this.cmdp.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdp.Location = new System.Drawing.Point(170, 372);
+            this.cmdp.Name = "cmdp";
+            this.cmdp.Size = new System.Drawing.Size(42, 35);
+            this.cmdp.TabIndex = 21;
+            this.cmdp.Text = "P";
+            this.cmdp.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // cmdr
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button15.Location = new System.Drawing.Point(218, 372);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(42, 35);
-            this.button15.TabIndex = 20;
-            this.button15.Text = "R";
-            this.button15.UseVisualStyleBackColor = true;
+            this.cmdr.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdr.Location = new System.Drawing.Point(218, 372);
+            this.cmdr.Name = "cmdr";
+            this.cmdr.Size = new System.Drawing.Size(42, 35);
+            this.cmdr.TabIndex = 20;
+            this.cmdr.Text = "R";
+            this.cmdr.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // cmds
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button16.Location = new System.Drawing.Point(266, 372);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(42, 35);
-            this.button16.TabIndex = 19;
-            this.button16.Text = "S";
-            this.button16.UseVisualStyleBackColor = true;
+            this.cmds.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmds.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmds.Location = new System.Drawing.Point(266, 372);
+            this.cmds.Name = "cmds";
+            this.cmds.Size = new System.Drawing.Size(42, 35);
+            this.cmds.TabIndex = 19;
+            this.cmds.Text = "S";
+            this.cmds.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // cmdt
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button17.Location = new System.Drawing.Point(314, 372);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(42, 35);
-            this.button17.TabIndex = 18;
-            this.button17.Text = "T";
-            this.button17.UseVisualStyleBackColor = true;
+            this.cmdt.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdt.Location = new System.Drawing.Point(314, 372);
+            this.cmdt.Name = "cmdt";
+            this.cmdt.Size = new System.Drawing.Size(42, 35);
+            this.cmdt.TabIndex = 18;
+            this.cmdt.Text = "T";
+            this.cmdt.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // cmdu
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button18.Location = new System.Drawing.Point(362, 372);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(42, 35);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "U";
-            this.button18.UseVisualStyleBackColor = true;
+            this.cmdu.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdu.Location = new System.Drawing.Point(362, 372);
+            this.cmdu.Name = "cmdu";
+            this.cmdu.Size = new System.Drawing.Size(42, 35);
+            this.cmdu.TabIndex = 17;
+            this.cmdu.Text = "U";
+            this.cmdu.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // cmdw
             // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button19.Location = new System.Drawing.Point(410, 372);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(42, 35);
-            this.button19.TabIndex = 16;
-            this.button19.Text = "W";
-            this.button19.UseVisualStyleBackColor = true;
+            this.cmdw.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdw.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdw.Location = new System.Drawing.Point(410, 372);
+            this.cmdw.Name = "cmdw";
+            this.cmdw.Size = new System.Drawing.Size(42, 35);
+            this.cmdw.TabIndex = 16;
+            this.cmdw.Text = "W";
+            this.cmdw.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // cmdo
             // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button20.Location = new System.Drawing.Point(122, 372);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(42, 35);
-            this.button20.TabIndex = 15;
-            this.button20.Text = "O";
-            this.button20.UseVisualStyleBackColor = true;
+            this.cmdo.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdo.Location = new System.Drawing.Point(122, 372);
+            this.cmdo.Name = "cmdo";
+            this.cmdo.Size = new System.Drawing.Size(42, 35);
+            this.cmdo.TabIndex = 15;
+            this.cmdo.Text = "O";
+            this.cmdo.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // cmdy
             // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button21.Location = new System.Drawing.Point(170, 413);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(42, 35);
-            this.button21.TabIndex = 28;
-            this.button21.Text = "Y";
-            this.button21.UseVisualStyleBackColor = true;
+            this.cmdy.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdy.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdy.Location = new System.Drawing.Point(170, 413);
+            this.cmdy.Name = "cmdy";
+            this.cmdy.Size = new System.Drawing.Size(42, 35);
+            this.cmdy.TabIndex = 28;
+            this.cmdy.Text = "Y";
+            this.cmdy.UseVisualStyleBackColor = true;
             // 
-            // button22
+            // cmdz
             // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button22.Location = new System.Drawing.Point(218, 413);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(42, 35);
-            this.button22.TabIndex = 27;
-            this.button22.Text = "Z";
-            this.button22.UseVisualStyleBackColor = true;
+            this.cmdz.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdz.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdz.Location = new System.Drawing.Point(218, 413);
+            this.cmdz.Name = "cmdz";
+            this.cmdz.Size = new System.Drawing.Size(42, 35);
+            this.cmdz.TabIndex = 27;
+            this.cmdz.Text = "Z";
+            this.cmdz.UseVisualStyleBackColor = true;
             // 
-            // button27
+            // cmdx
             // 
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button27.Location = new System.Drawing.Point(122, 413);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(42, 35);
-            this.button27.TabIndex = 22;
-            this.button27.Text = "X";
-            this.button27.UseVisualStyleBackColor = true;
+            this.cmdx.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdx.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdx.Location = new System.Drawing.Point(122, 413);
+            this.cmdx.Name = "cmdx";
+            this.cmdx.Size = new System.Drawing.Size(42, 35);
+            this.cmdx.TabIndex = 22;
+            this.cmdx.Text = "X";
+            this.cmdx.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // cmdq
             // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button23.Location = new System.Drawing.Point(266, 413);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(42, 35);
-            this.button23.TabIndex = 29;
-            this.button23.Text = "Q";
-            this.button23.UseVisualStyleBackColor = true;
+            this.cmdq.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmdq.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmdq.Location = new System.Drawing.Point(266, 413);
+            this.cmdq.Name = "cmdq";
+            this.cmdq.Size = new System.Drawing.Size(42, 35);
+            this.cmdq.TabIndex = 29;
+            this.cmdq.Text = "Q";
+            this.cmdq.UseVisualStyleBackColor = true;
             // 
-            // Wisielec
+            // Wisielecc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(865, 490);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cmdq);
+            this.Controls.Add(this.cmdy);
+            this.Controls.Add(this.cmdz);
+            this.Controls.Add(this.cmdx);
+            this.Controls.Add(this.cmdp);
+            this.Controls.Add(this.cmdr);
+            this.Controls.Add(this.cmds);
+            this.Controls.Add(this.cmdt);
+            this.Controls.Add(this.cmdu);
+            this.Controls.Add(this.cmdw);
+            this.Controls.Add(this.cmdo);
+            this.Controls.Add(this.cmdi);
+            this.Controls.Add(this.cmdj);
+            this.Controls.Add(this.cmdk);
+            this.Controls.Add(this.cmdl);
+            this.Controls.Add(this.cmdm);
+            this.Controls.Add(this.cmdn);
+            this.Controls.Add(this.cmdh);
+            this.Controls.Add(this.cmdb);
+            this.Controls.Add(this.cmdc);
+            this.Controls.Add(this.cmdd);
+            this.Controls.Add(this.cmde);
+            this.Controls.Add(this.cmdf);
+            this.Controls.Add(this.cmdg);
             this.Controls.Add(this.cmdA);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Wisielec";
+            this.Name = "Wisielecc";
             this.Text = "Wisielec";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -387,30 +386,30 @@ namespace Wisielec
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button cmdA;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button cmdg;
+        private System.Windows.Forms.Button cmdf;
+        private System.Windows.Forms.Button cmde;
+        private System.Windows.Forms.Button cmdd;
+        private System.Windows.Forms.Button cmdc;
+        private System.Windows.Forms.Button cmdb;
+        private System.Windows.Forms.Button cmdi;
+        private System.Windows.Forms.Button cmdj;
+        private System.Windows.Forms.Button cmdk;
+        private System.Windows.Forms.Button cmdl;
+        private System.Windows.Forms.Button cmdm;
+        private System.Windows.Forms.Button cmdn;
+        private System.Windows.Forms.Button cmdh;
+        private System.Windows.Forms.Button cmdp;
+        private System.Windows.Forms.Button cmdr;
+        private System.Windows.Forms.Button cmds;
+        private System.Windows.Forms.Button cmdt;
+        private System.Windows.Forms.Button cmdu;
+        private System.Windows.Forms.Button cmdw;
+        private System.Windows.Forms.Button cmdo;
+        private System.Windows.Forms.Button cmdy;
+        private System.Windows.Forms.Button cmdz;
+        private System.Windows.Forms.Button cmdx;
+        private System.Windows.Forms.Button cmdq;
     }
 }
 
@@ -426,14 +425,26 @@ using System.Windows.Forms;
 
 namespace Wisielec
 {
-    public partial class Wisielec : Form
+    
+
+    public partial class Wisielecc : Form
     {
-        public Wisielec()
+
+        private Bitmap[] Image = { Wisielec.Properties.Resources._1,
+                                 Wisielec.Properties.Resources._2,
+                                 Wisielec.Properties.Resources._3,
+                                 Wisielec.Properties.Resources._4,
+                                 Wisielec.Properties.Resources._5,
+                                 Wisielec.Properties.Resources._6,
+                                 Wisielec.Properties.Resources._7,
+                                 Wisielec.Properties.Resources._8,
+                                 Wisielec.Properties.Resources._9 };
+        public Wisielecc()
         {
             InitializeComponent();
         }
 
-        private void cmdA_Click(object sender, EventArgs e)
+        private void quessClick(object sender, EventArgs e)
         {
 
         }
